@@ -39,7 +39,7 @@
     <username>${anypoint.username}</username>
     <password>${anypoint.password}</password>
     <!-- Environment Parameter -->
-    <environment>${cloudhub.environment}</environment>
+    <environment>${ENVIRONMENT}</environment>
     <applicationName>${cloudhub.app}</applicationName>
     <businessGroup>${cloudhub.bg}</businessGroup>
     <workerType>${cloudhub.worker}</workerType>
