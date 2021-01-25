@@ -23,7 +23,7 @@ pipeline {
     
      stage( 'Deploy') {
       environment {
-        ENVIRONMENT = '$ENVIRONMENT'
+        //ENVIRONMENT = '$ENVIRONMENT'
         APP_NAME = 'DEV1-Jenkins-Api-${BUILD_NUMBER}'
       }
       steps {
